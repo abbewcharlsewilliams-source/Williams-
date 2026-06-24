@@ -1,18 +1,18 @@
 {
   "name": "willy-whatsapp-bot",
   "version": "1.0.0",
-  "description": "WhatsApp Chatbot powered by OpenAI",
+  "description": "WhatsApp Chatbot powered by OpenAI and MessageBird",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["whatsapp", "chatbot", "openai", "twilio"],
+  "keywords": ["whatsapp", "chatbot", "openai", "messagebird"],
   "author": "Willy",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "twilio": "^4.0.0",
+    "messagebird": "^3.0.0",
     "openai": "^4.0.0",
     "dotenv": "^16.0.3"
   },
